@@ -2,28 +2,16 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+# PRE - REQUESTIES #
+1.) MYSQL Version 5.7 or + due to flyway integration in project.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+# Steps To Run Nokia Task #
 
-### How do I get set up? ###
+1.) Clone the git repository to your local system and switch to main branch.
+2.) Import Project in eclipse IDE.
+3.) run ' mvn clean install ' to start project or Go to ' NokiamainApplication ' to start application.
+4.) Application will create `test` database with table `user_accounts`.
+5.) Open http://localhost:8081/swagger-ui.html to check API documentation.
+6.) Login to spring security by providing username as nokia and password as nokia.
+7.) Validate the API's.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
